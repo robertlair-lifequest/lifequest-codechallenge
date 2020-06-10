@@ -1,14 +1,12 @@
-# christiancharles-codechallenge
-
-LifeQuest Coding Challenge
+# LifeQuest Coding Challenge
 
 This coding challenge will involve a real-world situation and will test a number of things: 
 
-Ability to work with Git Repositories
-Ability to quickly get up to speed on an existing source base
-Angular Development Capabilities
-ASP.NET Web API Capabilities
-SQL Server
+* Ability to work with Git Repositories
+* Ability to quickly get up to speed on an existing source base
+* Angular Development Capabilities
+* ASP.NET Web API Capabilities
+* SQL Server
 
 This exercise is purposefully vague.  Use your best judgements in coding and design decisions.  The actual result isn’t what is important here, but rather we are looking for you to show off some of your skills.  Feel free to show off as much as you want.   
 
