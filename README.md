@@ -10,7 +10,7 @@ This coding challenge will involve a real-world situation and will test a number
 
 This exercise is purposefully vague.  Use your best judgements in coding and design decisions.  The actual result isn’t what is important here, but rather we are looking for you to show off some of your skills.  Feel free to show off as much as you want.   
 
-Step 1) Clone this source code repository with Git.  **Be sure to create a new branch to work on that will easily allow the identification of your work.  
+Step 1) Clone this source code repository with Git.  **Be sure to create a new branch to work on that will easily allow the identification of your work.**
 
 Step 2) Get Angular web application running.  The application resides in the folder “web”
 
