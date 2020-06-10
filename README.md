@@ -16,11 +16,24 @@ Step 2) Get Angular web application running.  The application resides in the fol
 
 Step 3) Add a new capability to the web application to manage companies.  (Use UI from existing template screens to generate a consistent look)  This should include the following: 
 
-Add entry in left menu titled “Companies”
-Add a List Screen
-Add an Add/Edit Screen
+* Add entry in left menu titled “Companies” that will point to the Companies Listing Screen.  
+* Add a List Screen. This screen will contain a grid of companies.  Each company listing will have an "Edit" button in the first column.  When you click on the edit button it will take you to the Company Edit Screen.  In addition, there will be a "Create New Company" button above the data grid.
+* Add an Add/Edit Screen.  This screen should have input fields for with validation to submit changes to the company.  
 
-Step 4) Create an ASP.NET Web API to serve the company screens on the angular project.  Use a SQL Server Express to store the company information.  Be sure to generate a backup of your database (or export a script with schema AND data).  Be sure to add the data backup or scripts to a folder named “data” in the repository. 
+The company object should have the following fields: 
+
+* ID (int)
+* Name (string)
+* Address (string)
+* City (string)
+* State (string) - Optionally you can make this an int and have the state represented by a drop down
+* Zip (string)
+
+Step 4) Create an ASP.NET Web API to serve the company screens on the angular project.  Use a SQL Server Express to store the company information.  Be sure to generate a backup of your database (or export a script with schema AND data).  Be sure to add the data backup or scripts to a folder named “data” in the repository.  The web api should have the following: 
+
+* Get a list of all companies
+* Get details of a specific company by Id
+* Submit changes a company by Id
 
 Please keep a coding journal describing what you did and why.  Documentation on how to get your example running will be expected (the documentation is part of the coding challenge).  
 
